@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <link rel="stylesheet" href="css/style.css">
     <title>Thomas Ball</title>
 </head>
@@ -17,30 +18,47 @@
         <a href="about-me.html">About me</a>
         <a href="contact.html" class="active">Contact</a>
     </div>
-    <div class="container">
-        <form action="action_page.php">
-      
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-            <option value="usa">Turkey</option>
-            <option value="usa">UK</option>
-          </select>
-      
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-      
-        </form>
+      <!-- <div class="container">
+        <div class="row">
+          <div class="column">
+            <div class="box">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="box">
+              <i class="fas fa-phone-alt"></i>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="box">
+              <i class="fas fa-envelope"></i>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div class="container">
+        <div class="row">
+          <div class="column">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Address</h3>
+            <p>9815 The Crescent
+              EDINBURGH</p>
+          </div>
+          <div class="column">
+            <i class="fas fa-phone-alt"></i>
+            <h3>Phone</h3>
+            <p><a href="#">(509) 884-8188</a></p>
+          </div>
+          <div class="column">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p><a href="#" target="_blank">info@gmail.com</a></p>
+          </div>
+        </div>
       </div>
 </body>
 </html>
